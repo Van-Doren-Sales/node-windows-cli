@@ -1,0 +1,7 @@
+{
+  "service": {
+    "name": "Example Service",
+    "description": "This is an example .servicerc.json file",
+    "script": "C:\\Path\\To\\Your\\Script\\Directory"
+  }
+}

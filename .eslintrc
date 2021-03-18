@@ -1,0 +1,3 @@
+{
+  "extends": "@vandorensales/eslint-config-vds-node"
+}

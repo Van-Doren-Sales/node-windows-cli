@@ -1,0 +1,40 @@
+{
+  "name": "@vandorensales/node-windows-cli",
+  "version": "0.0.1",
+  "description": "Install a node script as a windows service.",
+  "bin": {
+    "nw": "index.js"
+  },
+  "prettier": "@vandorensales/prettier-config",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-windows",
+    "node",
+    "windows",
+    "windows service",
+    "installer",
+    "windows service installer"
+  ],
+  "author": "Van Doren Sales",
+  "license": "MIT",
+  "dependencies": {
+    "admin-check": "^1.1.3",
+    "dotenv": "^8.2.0",
+    "joi": "^17.4.0",
+    "minimist": "^0.0.10",
+    "node-windows": "^1.0.0-beta.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "@vandorensales/eslint-config-vds-node": "^1.0.1",
+    "@vandorensales/prettier-config": "^1.0.1",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
+}
