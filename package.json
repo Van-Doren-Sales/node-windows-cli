@@ -1,6 +1,6 @@
 {
   "name": "@vandorensales/node-windows-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Install a node script as a windows service.",
   "bin": {
     "nw": "index.js"
@@ -18,6 +18,14 @@
     "windows service installer"
   ],
   "author": "Van Doren Sales",
+  "homepage": "https://www.vandorensales.com",
+  "bugs": {
+    "url": "https://github.com/Van-Doren-Sales/node-windows-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Van-Doren-Sales/node-windows-cli"
+  },
   "license": "MIT",
   "dependencies": {
     "admin-check": "^1.1.3",
