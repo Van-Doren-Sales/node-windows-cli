@@ -1,5 +1,8 @@
 # node-windows-cli
 
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/@vandorensales/node-windows-cli?style=flat-square)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@vandorensales/node-windows-cli?style=flat-square)
+
 This package is an unofficial CLI wrapper around the [node-windows](https://www.npmjs.com/package/node-windows) package. We aim to simplify the installation of node applications as Windows services in environments where you are installing multiple applications on a regular basis.
 
 ## Overview
@@ -20,6 +23,8 @@ This tool can either be installed globaly
 or on a project by project basis
 
 `npm install --save-dev node-windows-cli`
+
+If installed locally, you will need to add additional scripts to your `package.json` that use this package's commands
 
 ## Setting up and installing your Windows service
 

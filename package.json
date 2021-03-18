@@ -1,6 +1,6 @@
 {
   "name": "@vandorensales/node-windows-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Install a node script as a windows service.",
   "bin": {
     "nw": "index.js"
